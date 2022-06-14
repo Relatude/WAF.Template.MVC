@@ -1,0 +1,15 @@
+﻿@using WAF.API.Web
+@using WAF.Engine.Content.Native
+@using WAF.Engine.Query.Native
+@inject WAFNativeContext wafContext
+
+@{
+    var site = wafContext.Session.GetSite();
+    var items = site.Children.Query<HierarchicalContent>().Where(AqlHierarchicalContent.ShowInMenu==true).Execute();
+}
+
+@foreach (var item in items) {
+        <li class="nav-item">
+          <a class="nav-link text-dark" @(item.NodeId == wafContext.Request.NodeId? "style=font-weight:bold;":"") href="@wafContext.GetUrl(item)">@item.Name</a>
+        </li>    
+}

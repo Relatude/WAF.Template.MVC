@@ -1,0 +1,35 @@
+﻿<div class="text-center">
+    <h1 class="display-4">Login</h1>
+</div>
+<div class="container border" style="padding:20px;">
+    <form method="post" action="">
+        <div class="form-group row">
+            <div class="col-2">
+                <label>Username</label>
+            </div>
+            <div class="col-5">
+                <input type="text" name="UserName" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+                <label>Password</label>
+            </div>
+            <div class="col-5">
+                <input type="password" name="Password" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-5">
+                @Model
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col-2">
+            </div>
+            <div class="col-5">
+                <input type="submit" class="btn btn-primary" value="Login" />
+            </div>
+        </div>
+    </form>
+</div>

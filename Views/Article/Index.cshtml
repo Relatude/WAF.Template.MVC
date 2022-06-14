@@ -1,0 +1,19 @@
+﻿@inject WAF.API.Web.WAFNativeContext ctx
+@{
+    
+    
+
+}
+
+<div class="text-center">
+    <h1 class="display-4">@Model.Name</h1>
+    <p style="font-weight:bold;font-size:22px;margin-top:30px;margin-bottom:30px;">@Model.Ingress</p>
+    <p>@Html.Raw(Model.BodyContent)</p>
+    <br /><br />
+@*    IsAuthenticated (Identity):  @Context.User.Identity.IsAuthenticated <br />
+    Username:  @Context.User.Identity.Name <br />
+    
+    <br />
+    WAF IsAnonymous: @ctx.Session.IsAnonymous() <br />
+    WAF Username: @ctx.Session.UserName <br />*@
+</div>

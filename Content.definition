@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definition Name="Website" Build="12" Guid="6999d445-e4f6-4f36-b81c-a9c9df0a1558">
+  <Cultures>
+    <Culture LCID="1033" Name="English" />
+  </Cultures>
+  <Scripts>
+    <InternalScript Guid="87d3d975-d4ea-4cc8-8477-07153378bc4c" RunDuringSave="True" Active="True" Id="webnodes.CodeGeneration" />
+  </Scripts>
+  <Options>
+    <OData>
+      <Settings>
+        <Boolean Key="ODataExposeAllProperties" />
+        <Boolean Key="ODataExposeAllTypes" />
+        <Boolean Key="ODataEnabled" />
+      </Settings>
+    </OData>
+  </Options>
+</Definition>
