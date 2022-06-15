@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Nullable>disable</Nullable>
+    <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
 	  <!-- Warning: Setting the following switch is *NOT* recommended in web apps. -->
 	  <EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
@@ -28,7 +28,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OData" Version="8.0.7" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.1" />
-    <PackageReference Include="Relatude.Core" Version="6.0.3046" />
+    <PackageReference Include="Relatude.Core" Version="6.0.3047" />
   </ItemGroup>
 
   <ItemGroup>
