@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
 	  <!-- Warning: Setting the following switch is *NOT* recommended in web apps. -->
 	  <EnableUnsafeBinaryFormatterSerialization>true</EnableUnsafeBinaryFormatterSerialization>
+	  <NoWarn>8602</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
