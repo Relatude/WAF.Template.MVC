@@ -2,7 +2,6 @@
     "$schema": "http://json.schemastore.org/template",
     "author": "Relatude",
     "classifications": ["Web", "Relatude"],
-    "groupIdentity": "Relatude.Starter",
     "identity": "Relatude.Starter.Mvc",
     "name": "Relatude MVC starter site",
     "description": "A starter site using Relatude CMS and MVC",
