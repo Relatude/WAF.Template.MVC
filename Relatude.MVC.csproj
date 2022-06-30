@@ -29,7 +29,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OData" Version="8.0.7" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.1" />
-    <PackageReference Include="Relatude.Core" Version="6.0.3103" />
+    <PackageReference Include="Relatude.Core" Version="6.0.3107" />
   </ItemGroup>
 
   <ItemGroup>
