@@ -125,15 +125,6 @@ public Native_NewsletterDeliveryController(AdminUIAPIControllerContext ctx) : ba
 public class Native_NewsletterRecipientListController : WAF.Server.Controllers.ContentController<WAF.API.Native.NewsletterRecipientList> { 
 public Native_NewsletterRecipientListController(AdminUIAPIControllerContext ctx) : base(ctx) {    }
 }
-public class Native_PeristedActivityController : WAF.Server.Controllers.ContentController<WAF.API.Native.PeristedActivity> { 
-public Native_PeristedActivityController(AdminUIAPIControllerContext ctx) : base(ctx) {    }
-}
-public class Native_PeristedExchangeAgentController : WAF.Server.Controllers.ContentController<WAF.API.Native.PeristedExchangeAgent> { 
-public Native_PeristedExchangeAgentController(AdminUIAPIControllerContext ctx) : base(ctx) {    }
-}
-public class Native_PeristedWorkflowInfoController : WAF.Server.Controllers.ContentController<WAF.API.Native.PeristedWorkflowInfo> { 
-public Native_PeristedWorkflowInfoController(AdminUIAPIControllerContext ctx) : base(ctx) {    }
-}
 public class Native_ScheduledTaskController : WAF.Server.Controllers.ContentController<WAF.API.Native.ScheduledTask> { 
 public Native_ScheduledTaskController(AdminUIAPIControllerContext ctx) : base(ctx) {    }
 }
@@ -164,9 +155,6 @@ public Native_VideoFileController(AdminUIAPIControllerContext ctx) : base(ctx) {
 public class Native_InteractiveFileController : WAF.Server.Controllers.ContentController<WAF.API.Native.InteractiveFile> { 
 public Native_InteractiveFileController(AdminUIAPIControllerContext ctx) : base(ctx) {    }
 }
-public class Native_WorkflowBaseController : WAF.Server.Controllers.ContentController<WAF.API.Native.WorkflowBase> { 
-public Native_WorkflowBaseController(AdminUIAPIControllerContext ctx) : base(ctx) {    }
-}
 public class Native_HierarchicalFolderController : WAF.Server.Controllers.ContentController<WAF.API.Native.HierarchicalFolder> { 
 public Native_HierarchicalFolderController(AdminUIAPIControllerContext ctx) : base(ctx) {    }
 }
@@ -178,9 +166,6 @@ public Native_RedirectPageController(AdminUIAPIControllerContext ctx) : base(ctx
 }
 public class Native_SMSController : WAF.Server.Controllers.ContentController<WAF.API.Native.SMS> { 
 public Native_SMSController(AdminUIAPIControllerContext ctx) : base(ctx) {    }
-}
-public class Native_MMSController : WAF.Server.Controllers.ContentController<WAF.API.Native.MMS> { 
-public Native_MMSController(AdminUIAPIControllerContext ctx) : base(ctx) {    }
 }
 public class Native_ContentQueryController : WAF.Server.Controllers.ContentController<WAF.API.Native.ContentQuery> { 
 public Native_ContentQueryController(AdminUIAPIControllerContext ctx) : base(ctx) {    }
@@ -328,4 +313,7 @@ public Native_OptimizingModuleController(AdminUIAPIControllerContext ctx) : base
 }
 public class Native_ContentModuleBaseController : WAF.Server.Controllers.ContentController<WAF.API.Native.ContentModuleBase> { 
 public Native_ContentModuleBaseController(AdminUIAPIControllerContext ctx) : base(ctx) {    }
+}
+public class Native_HeadlessServerController : WAF.Server.Controllers.ContentController<WAF.API.Native.HeadlessServer> { 
+public Native_HeadlessServerController(AdminUIAPIControllerContext ctx) : base(ctx) {    }
 }
